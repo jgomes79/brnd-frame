@@ -80,21 +80,21 @@ app.image('/img/:id', async (c) => {
             <Columns padding="4">
               <Column alignHorizontal='center' alignVertical='bottom'>
                 <Box marginBottom={'8'} gap={'8'} alignHorizontal='center'>
-                  <Image src={data.brand2.imageUrl} borderRadius={'32'} width={'64'} height={'64'}></Image>
+                  <Image src={data.brand2.imageUrl} borderRadius={'32'} width={'128'} height={'128'}></Image>
                   <Text align='center'>{data.brand2.name}</Text>
                 </Box>
                 <Image src={`${process.env.INTERNAL_ADDRESS as string}/Brand2.png`}></Image>
               </Column>
               <Column alignHorizontal='center' alignVertical='bottom'>
                 <Box marginBottom={'8'} gap={'8'} alignHorizontal='center'>
-                  <Image src={data.brand1.imageUrl} borderRadius={'32'} width={'64'} height={'64'}></Image>
+                  <Image src={data.brand1.imageUrl} borderRadius={'32'} width={'128'} height={'128'}></Image>
                   <Text>{data.brand1.name}</Text>
                 </Box>
                 <Image src={`${process.env.INTERNAL_ADDRESS as string}/Brand1.png`}></Image>
               </Column>
               <Column alignHorizontal='center' alignVertical='bottom'>
                 <Box marginBottom={'8'} gap={'8'} alignHorizontal='center'>
-                  <Image src={data.brand3.imageUrl} borderRadius={'32'} width={'64'} height={'64'}></Image>
+                  <Image src={data.brand3.imageUrl} borderRadius={'32'} width={'128'} height={'128'}></Image>
                   <Text>{data.brand3.name}</Text>
                 </Box>
                 <Image src={`${process.env.INTERNAL_ADDRESS as string}/Brand3.png`}></Image>

@@ -11,9 +11,9 @@ dotenv.config();
 const { Box, Columns, Column, Rows, Row, Image, Text, vars } = createSystem();
 
 // Uncomment to use Edge Runtime.
-export const config = {
-   runtime: 'edge',
-}
+//export const config = {
+//   runtime: 'edge',
+//}
 
 export const app = new Frog({
   assetsPath: '/',

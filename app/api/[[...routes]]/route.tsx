@@ -1,8 +1,10 @@
+/** @jsxImportSource frog/jsx */
+
 import { Button, Frog } from 'frog'
 import { createSystem } from 'frog/ui'
 import { serveStatic } from '@hono/node-server/serve-static';
 // import { neynar } from 'frog/hubs'
-import { handle } from 'frog/vercel'
+import { handle } from 'frog/next'
 import dotenv from 'dotenv'
 import axios from 'axios'
 
@@ -110,5 +112,5 @@ app.image('/img/:id', async (c) => {
   })
 })
 
-export const GET = handle(app)
-export const POST = handle(app)
+export const GET: any = handle(app)
+export const POST: any = handle(app)
